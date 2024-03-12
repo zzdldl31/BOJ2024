@@ -2,11 +2,12 @@
 
 #include <stdio.h>
 
-int N, M;
 
-int graph[120][120];
 
 int P1389() {
+	int N, M;
+	int graph[120][120];
+
 	scanf("%d %d", &N, &M);
 	int q,w;
 	for (int q = 1; q <= N; q++) {

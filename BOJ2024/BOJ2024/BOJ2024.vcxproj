@@ -141,7 +141,12 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="problems\1107.cpp" />
+    <ClCompile Include="problems\11723.cpp" />
     <ClCompile Include="problems\1389.cpp" />
+    <ClCompile Include="problems\1697.cpp" />
+    <ClCompile Include="problems\25083.cpp" />
+    <ClCompile Include="problems\2562.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="common.h" />

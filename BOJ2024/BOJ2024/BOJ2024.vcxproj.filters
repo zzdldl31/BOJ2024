@@ -24,6 +24,21 @@
     <ClCompile Include="problems\1389.cpp">
       <Filter>소스 파일\problems</Filter>
     </ClCompile>
+    <ClCompile Include="problems\2562.cpp">
+      <Filter>소스 파일\problems</Filter>
+    </ClCompile>
+    <ClCompile Include="problems\25083.cpp">
+      <Filter>소스 파일\problems</Filter>
+    </ClCompile>
+    <ClCompile Include="problems\1107.cpp">
+      <Filter>소스 파일\problems</Filter>
+    </ClCompile>
+    <ClCompile Include="problems\1697.cpp">
+      <Filter>소스 파일\problems</Filter>
+    </ClCompile>
+    <ClCompile Include="problems\11723.cpp">
+      <Filter>소스 파일\problems</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="common.h">
