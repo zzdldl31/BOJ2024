@@ -2,12 +2,9 @@
 
 #include <stdio.h>
 
-int N, M;
-bool jam[12] = { 0 };	//0~9,+-
-int buff;
-int L = 0;
 
-int upper_closest(int pivot, int pivotL, int length) {
+
+int upper_closest(int pivot, int pivotL, int length, bool* jam) {
 	if (length <= 0)
 		return -1;
 	if (pivotL > length)
@@ -70,7 +67,7 @@ int upper_closest(int pivot, int pivotL, int length) {
 
 			}
 		}
-		int cand = upper_closest(rest, pivotL - 1, pivotL - 1);
+		int cand = upper_closest(rest, pivotL - 1, pivotL - 1, jam);
 		if (cand == -1) {
 
 			int newupper = -1;
@@ -105,7 +102,7 @@ int upper_closest(int pivot, int pivotL, int length) {
 	return -1;
 }
 
-int lower_closest(int pivot, int pivotL, int length) {
+int lower_closest(int pivot, int pivotL, int length, bool* jam) {
 	if (length <= 0)
 		return -1;
 	if (pivotL < length)
@@ -150,7 +147,7 @@ int lower_closest(int pivot, int pivotL, int length) {
 			return lowermax;
 		}
 
-		int cand = lower_closest(rest, pivotL - 1, pivotL - 1);
+		int cand = lower_closest(rest, pivotL - 1, pivotL - 1, jam);
 		if (cand == -1) {
 			int newlower = -1;
 			for (int i = lower-1; i >= 0; i--) {
@@ -176,6 +173,12 @@ int lower_closest(int pivot, int pivotL, int length) {
 }
 
 int P1107() {
+
+	int N, M;
+	bool jam[12] = { 0 };	//0~9,+-
+	int buff;
+	int L = 0;
+
 
 	scanf("%d", &N);
 	scanf("%d", &M);
@@ -234,25 +237,25 @@ int P1107() {
 	}
 	int minTick = N > 100 ? N - 100 : 100 - N;
 
-	int cand = upper_closest(N, L, L);
+	int cand = upper_closest(N, L, L, jam);
 	if (cand != -1 && !jam[11]) {
 		int candT = L + cand - N;
 		if (minTick > candT)
 			minTick = candT;
 	}
-	cand = upper_closest(N, L, L + 1);
+	cand = upper_closest(N, L, L + 1, jam);
 	if (cand != -1 && !jam[11]) {
 		int candT = L + 1 + cand - N;
 		if (minTick > candT)
 			minTick = candT;
 	}
-	cand = lower_closest(N, L, L);
+	cand = lower_closest(N, L, L, jam);
 	if (cand != -1 && !jam[10]) {
 		int candT = L + N -cand;
 		if (minTick > candT)
 			minTick = candT;
 	}
-	cand = lower_closest(N, L, L - 1);
+	cand = lower_closest(N, L, L - 1, jam);
 	if (cand != -1 && !jam[10]) {
 		int candT = L - 1 + N - cand;
 		if (minTick > candT)

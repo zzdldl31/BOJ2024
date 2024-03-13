@@ -141,12 +141,19 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="problems\10250.cpp" />
+    <ClCompile Include="problems\10814.cpp" />
     <ClCompile Include="problems\1107.cpp" />
     <ClCompile Include="problems\11723.cpp" />
     <ClCompile Include="problems\1389.cpp" />
     <ClCompile Include="problems\1697.cpp" />
+    <ClCompile Include="problems\1920.cpp" />
+    <ClCompile Include="problems\2206.cpp" />
     <ClCompile Include="problems\25083.cpp" />
     <ClCompile Include="problems\2562.cpp" />
+    <ClCompile Include="problems\27866.cpp" />
+    <ClCompile Include="problems\4153.cpp" />
+    <ClCompile Include="problems\_template.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="common.h" />

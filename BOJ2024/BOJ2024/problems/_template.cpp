@@ -1,9 +1,8 @@
 #include "common.h"
 
+#include <stdio.h>
 
-int main() {
-
-	P2206();
+int P() {
 
 	return 0;
 }
