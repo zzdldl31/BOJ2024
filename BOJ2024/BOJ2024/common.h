@@ -1,5 +1,6 @@
 #pragma once
 
+extern int P1017();
 extern int P1107();
 extern int P1389();
 extern int P1697();

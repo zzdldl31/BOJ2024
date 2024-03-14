@@ -141,6 +141,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="problems\1017.cpp" />
     <ClCompile Include="problems\10250.cpp" />
     <ClCompile Include="problems\10814.cpp" />
     <ClCompile Include="problems\1107.cpp" />
