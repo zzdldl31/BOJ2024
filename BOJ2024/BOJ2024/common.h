@@ -10,6 +10,8 @@ extern int P2562();
 extern int P4153();
 extern int P10250();
 extern int P10814();
+extern int P10866();
 extern int P11723();
+extern int P11866();
 extern int P25083();
 extern int P27866();

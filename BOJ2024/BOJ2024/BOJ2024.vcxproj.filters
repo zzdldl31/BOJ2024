@@ -63,6 +63,12 @@
     <ClCompile Include="problems\1017.cpp">
       <Filter>소스 파일\problems</Filter>
     </ClCompile>
+    <ClCompile Include="problems\11866.cpp">
+      <Filter>소스 파일\problems</Filter>
+    </ClCompile>
+    <ClCompile Include="problems\10866.cpp">
+      <Filter>소스 파일\problems</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="common.h">

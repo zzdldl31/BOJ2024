@@ -144,8 +144,10 @@
     <ClCompile Include="problems\1017.cpp" />
     <ClCompile Include="problems\10250.cpp" />
     <ClCompile Include="problems\10814.cpp" />
+    <ClCompile Include="problems\10866.cpp" />
     <ClCompile Include="problems\1107.cpp" />
     <ClCompile Include="problems\11723.cpp" />
+    <ClCompile Include="problems\11866.cpp" />
     <ClCompile Include="problems\1389.cpp" />
     <ClCompile Include="problems\1697.cpp" />
     <ClCompile Include="problems\1920.cpp" />
