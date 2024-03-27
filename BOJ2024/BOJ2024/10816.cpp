@@ -9,14 +9,14 @@ int P10816() {
 	int card;
 
 	scanf("%d", &N);
-	for (int i = 0; i < N; i++) {
+	while(N-->0) {
 		scanf("%d", &card);
 		cards[card + 10000000]++;
 	}
 
 	scanf("%d", &M);
 
-	for (int i = 0; i < N; i++) {
+	while(M-->0) {
 		scanf("%d", &card);
 		printf("%d ", cards[card + 10000000]);
 	}
