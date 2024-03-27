@@ -140,6 +140,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="10816.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="problems\1017.cpp" />
     <ClCompile Include="problems\10250.cpp" />
@@ -156,6 +157,7 @@
     <ClCompile Include="problems\2562.cpp" />
     <ClCompile Include="problems\27866.cpp" />
     <ClCompile Include="problems\4153.cpp" />
+    <ClCompile Include="problems\9527.cpp" />
     <ClCompile Include="problems\_template.cpp" />
   </ItemGroup>
   <ItemGroup>
