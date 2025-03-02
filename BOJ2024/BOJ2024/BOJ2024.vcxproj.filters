@@ -81,6 +81,21 @@
     <ClCompile Include="15681.cpp">
       <Filter>소스 파일\problems</Filter>
     </ClCompile>
+    <ClCompile Include="31403.cpp">
+      <Filter>소스 파일\problems</Filter>
+    </ClCompile>
+    <ClCompile Include="1676.cpp">
+      <Filter>소스 파일\problems</Filter>
+    </ClCompile>
+    <ClCompile Include="15829.cpp">
+      <Filter>소스 파일\problems</Filter>
+    </ClCompile>
+    <ClCompile Include="18110.cpp">
+      <Filter>소스 파일\problems</Filter>
+    </ClCompile>
+    <ClCompile Include="28702.cpp">
+      <Filter>소스 파일\problems</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="common.h">

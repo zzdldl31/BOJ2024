@@ -143,7 +143,12 @@
   <ItemGroup>
     <ClCompile Include="10816.cpp" />
     <ClCompile Include="15681.cpp" />
+    <ClCompile Include="15829.cpp" />
+    <ClCompile Include="1676.cpp" />
+    <ClCompile Include="18110.cpp" />
     <ClCompile Include="2166.cpp" />
+    <ClCompile Include="28702.cpp" />
+    <ClCompile Include="31403.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="problems\1017.cpp" />
     <ClCompile Include="problems\10250.cpp" />

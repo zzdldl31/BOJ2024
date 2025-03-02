@@ -3,6 +3,7 @@
 extern int P1017();
 extern int P1107();
 extern int P1389();
+extern int P1676();
 extern int P1697();
 extern int P1920();
 extern int P2166();
@@ -19,3 +20,8 @@ extern int P11866();
 extern int P15681();
 extern int P25083();
 extern int P27866();
+extern int P31403();
+
+extern int P15829();
+extern int P18110();
+extern int P28702();
